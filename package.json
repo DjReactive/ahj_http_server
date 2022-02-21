@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "djreactive",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3"
+  }
+}
